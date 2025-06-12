@@ -7,8 +7,8 @@ A scalable and secure backend service for the **EventPlanner** platform – desi
 ## 📋 Table of Contents
 - [About the Project](#about-the-project)
 - [Architecture & Features](#architecture--features)
-- [Database Design & Schema](#database-design)
 - [Tech Stack](#tech-stack)
+- [Database Design & Schema](#database-design)
 - [Testing & Code Quality](#testing--code-quality)
 - [My Contributions](#my-contributions)
 
@@ -51,17 +51,6 @@ This repository contains the **Backend** codebase, developed with **Java (Spring
 
 ---
 
-<a name="database-design"></a>
-## 🗄️ Database Design & Schema
-
-- Utilized **PostgreSQL** for a robust relational database management system.  
-- Designed a **complex, scalable schema** supporting multiple interconnected entities: users, events, event types, services, products, reservations, participations, roles, and permissions.  
-- Implemented **normalized tables** with strong foreign key constraints ensuring data integrity and relational consistency.  
-- Leveraged **JPA/Hibernate** for ORM, enabling easy entity relationship mapping and query optimization.  
-- Carefully modeled **many-to-many** and **one-to-many** relationships to reflect real-world domain logic, facilitating complex queries and reporting.  
-- Indexed frequently queried columns to optimize performance on large datasets.
-
----
 <a name="tech-stack"></a>
 ## 🧰 Tech Stack
 
@@ -73,6 +62,18 @@ This repository contains the **Backend** codebase, developed with **Java (Spring
 | **Database** | PostgreSQL + JPA (Hibernate)                |
 | **Messaging**| WebSockets                                  |
 | **Tools**    | Maven, Postman, Mail Service (SMTP)         |
+
+---
+
+<a name="database-design"></a>
+## 🗄️ Database Design & Schema
+
+- Utilized **PostgreSQL** for a robust relational database management system.  
+- Designed a **complex, scalable schema** supporting multiple interconnected entities: users, events, event types, services, products, reservations, participations, roles, and permissions.  
+- Implemented **normalized tables** with strong foreign key constraints ensuring data integrity and relational consistency.  
+- Leveraged **JPA/Hibernate** for ORM, enabling easy entity relationship mapping and query optimization.  
+- Carefully modeled **many-to-many** and **one-to-many** relationships to reflect real-world domain logic, facilitating complex queries and reporting.  
+- Indexed frequently queried columns to optimize performance on large datasets.
 
 ---
 
