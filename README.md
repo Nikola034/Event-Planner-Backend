@@ -17,6 +17,7 @@ A scalable and secure backend service for the **EventPlanner** platform – desi
 ## 📖 About the Project
 
 **EventPlanner** is a cross-platform event planning ecosystem connecting:
+- 👤 **Guests** - browse events, products and services
 - 🎫 **Authenticated Users** – register, manage profiles, participate in events  
 - 🎤 **Event Organizers** – create and manage public or private events  
 - 🛠️ **Service/Product Providers** – offer services and products for events  
