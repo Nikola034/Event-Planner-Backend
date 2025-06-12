@@ -1,66 +1,84 @@
-🛠️ EventPlanner - Backend
-A powerful backend service for the EventPlanner platform – a scalable, secure, and cleanly-architected event management system connecting users, event organizers, and service/product providers.
+# 🛠️ EventPlanner - Backend
 
-🔑 Key Features
-Role-based access control
-Authenticated Users, Event Organizers, Service/Product Providers, and Admins – each with clearly defined permissions.
+A scalable and secure backend service for the **EventPlanner** platform – designed to support multi-role event planning with clean architecture, real-time updates, and RESTful APIs.
 
-Authentication & Authorization
-JWT-based secure login and session handling using Spring Security.
+---
 
-Event Management
-Complete backend support for creating, updating, and deleting events, event types, and their related data.
+## 📋 Table of Contents
+- [About the Project](#about-the-project)
+- [Architecture & Features](#architecture--features)
+- [Tech Stack](#tech-stack)
+- [Testing & Code Quality](#testing--code-quality)
+- [My Contributions](#my-contributions)
+- [Getting Started](#getting-started)
+- [License](#license)
 
-Real-time Communication
-Integrated WebSockets for live updates and interactions.
+---
 
-Email Notifications
-Built-in email service to send verification, status updates, and system messages.
+## 📖 About the Project
 
-REST API Design
-Cleanly structured and well-documented RESTful APIs, consumed by web and mobile clients.
+**EventPlanner** is a cross-platform event planning ecosystem connecting:
+- 🎫 **Authenticated Users** – register, manage profiles, participate in events  
+- 🎤 **Event Organizers** – create and manage public or private events  
+- 🛠️ **Service/Product Providers** – offer services and products for events  
+- 🛡️ **Administrators** – manage the entire system
 
-Layered Architecture
-Clean code with strict separation of concerns:
-Repository → Service → Controller, with DTOs for all external communication.
+This repository contains the **Backend** codebase, developed with **Java (Spring Boot)** using a layered architecture and full JWT-based security.
 
-🧪 Testing & Code Quality
-✅ Unit tests with JUnit
+---
 
-📬 API testing with Postman
+## 🧱 Architecture & Features
 
-👥 Code reviews via Pull Requests
+### 🔐 Authentication & Authorization
+- Secure login using **JWT tokens**
+- Role-based access control via **Spring Security**
+- Middleware to protect sensitive endpoints
 
-🧼 Strict adherence to clean code practices
+### 📦 Event & User Management
+- Full CRUD for **events**, **event types**, and **user profiles**
+- DTO pattern for clean and safe data transfer
+- Modular services: `Repository → Service → Controller`
 
-📋 Agile process tracked with Trello and regular sprint retrospectives
+### 🔔 Communication
+- Email service for account-related notifications
+- WebSocket support for real-time event updates
 
-🧰 Tech Stack
-Java 17
+### 🔗 API
+- RESTful API design
+- Fully tested using Postman collections
 
-Spring Boot
+---
 
-Spring Security
+## 🧰 Tech Stack
 
-JWT for secure authentication
+| Category     | Technologies Used                          |
+|--------------|---------------------------------------------|
+| **Language** | Java 17                                     |
+| **Framework**| Spring Boot, Spring Security                |
+| **Auth**     | JWT, Role-based Access Control              |
+| **Database** | PostgreSQL + JPA (Hibernate)                |
+| **Messaging**| WebSockets                                  |
+| **Tools**    | Maven, Postman, Mail Service (SMTP)         |
 
-WebSockets
+---
 
-PostgreSQL
+## 🧪 Testing & Code Quality
 
-JPA (Hibernate)
+- ✅ **Unit Testing** – JUnit  
+- 🧪 **Manual API Testing** – Postman  
+- 🧼 **Clean Code** – DTOs, Separation of Concerns  
+- 🔍 **Code Reviews** – Pull requests & reviews for all changes  
+- 📋 **Agile Workflow** – Trello board with sprints and retrospectives
 
-Email (SMTP)
+---
 
-Maven
+## 👨‍💻 My Contributions
 
-👨‍💻 My Contributions
-I was responsible for everything related to event functionality:
+- 🔧 Event module: creation, editing, deletion  
+- 🏷️ EventType module  
+- 👤 Registration, login, and profile update  
+- 🛍️ Partial contribution to service/product CRUD  
+- 📐 Participated in early design process (Figma prototypes)
+- 🧪 JUnit, Jasmin and E2E Seleniumt Tests for each part
 
-Event creation, updating, deletion
-
-Event type (EventType) management
-
-User registration, login, and profile editing
-
-Partial contributions to product/service CRUD
+---
