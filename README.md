@@ -10,6 +10,7 @@ A scalable and secure backend service for the **EventPlanner** platform – desi
 - [Tech Stack](#tech-stack)
 - [Database Design & Schema](#database-design)
 - [Testing & Code Quality](#testing--code-quality)
+- [Team Collaboration](#team--collaboration)
 - [My Contributions](#my-contributions)
 
 ---
@@ -89,6 +90,17 @@ See also:
 - 🧼 **Clean Code** – DTOs, Separation of Concerns  
 - 🔍 **Code Reviews** – Pull requests & reviews for all changes  
 - 📋 **Agile Workflow** – Trello board with sprints and retrospectives
+
+---
+
+<a name="team--collaboration"></a>
+## 🤝 Team & Collaboration
+
+- Developed collaboratively by a team of **3 members**
+- Worked in agile sprints with clearly defined roles and responsibilities
+- Used **Trello** for task management, sprint planning, and retrospectives
+- Maintained high code quality through **pull requests**, **code reviews**, and team discussions
+- Initial designs and workflows were created and shared in **Figma**
 
 ---
 
