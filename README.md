@@ -27,9 +27,9 @@ A scalable and secure backend service for the **EventPlanner** platform – desi
 This repository contains the **Backend** codebase, developed with **Java (Spring Boot)** using a layered architecture and full JWT-based security.
 
 See also:  
-- [Frontend Repository](https://github.com/Nikola034/Event-Planner-Frontend)  
-- [Android Repository](https://github.com/Nikola034/Event-Planner-Android) 
-- [Selenium Tests Repository](https://github.com/Nikola034/Event-Planner-Selenium-Tests)
+- [EventPlanner Frontend](https://github.com/Nikola034/Event-Planner-Frontend)  
+- [EventPlanner Android](https://github.com/Nikola034/Event-Planner-Android) 
+- [EventPlanner Selenium Tests](https://github.com/Nikola034/Event-Planner-Selenium-Tests)
 ---
 
 <a name="architecture--features"></a>
