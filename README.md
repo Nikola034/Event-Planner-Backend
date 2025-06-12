@@ -5,7 +5,7 @@ A scalable and secure backend service for the **EventPlanner** platform – desi
 ---
 
 ## 📋 Table of Contents
-- [📖 About the Project](#about-the-project)
+- [About the Project](#about-the-project)
 - [Architecture & Features](#architecture--features)
 - [Tech Stack](#tech-stack)
 - [Testing & Code Quality](#testing--code-quality)
@@ -26,6 +26,7 @@ This repository contains the **Backend** codebase, developed with **Java (Spring
 
 ---
 
+<a name="architecture--features"></a>
 ## 🧱 Architecture & Features
 
 ### 🔐 Authentication & Authorization
@@ -48,6 +49,7 @@ This repository contains the **Backend** codebase, developed with **Java (Spring
 
 ---
 
+<a name="tech-stack"></a>
 ## 🧰 Tech Stack
 
 | Category     | Technologies Used                          |
@@ -61,6 +63,7 @@ This repository contains the **Backend** codebase, developed with **Java (Spring
 
 ---
 
+<a name="testing--code-quality"></a>
 ## 🧪 Testing & Code Quality
 
 - ✅ **Unit Testing** – JUnit  
@@ -71,6 +74,7 @@ This repository contains the **Backend** codebase, developed with **Java (Spring
 
 ---
 
+<a name="my-contributions"></a>
 ## 👨‍💻 My Contributions
 
 - 🔧 Event module: creation, editing, deletion  
