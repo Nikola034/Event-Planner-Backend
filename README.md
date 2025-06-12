@@ -13,6 +13,7 @@ A scalable and secure backend service for the **EventPlanner** platform – desi
 
 ---
 
+<a name="about-the-project"></a>
 ## 📖 About the Project
 
 **EventPlanner** is a cross-platform event planning ecosystem connecting:
