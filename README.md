@@ -77,7 +77,8 @@ This repository contains the **Backend** codebase, developed with **Java (Spring
 <a name="my-contributions"></a>
 ## 👨‍💻 My Contributions
 
-- 🔧 Event module: creation, editing, deletion  
+- 🔧 Event module: creation, editing, deletion
+- 🔐 Complete Spring Security and JWT implementation
 - 🏷️ EventType module  
 - 👤 Registration, login, and profile update  
 - 🛍️ Partial contribution to service/product CRUD  
