@@ -5,13 +5,11 @@ A scalable and secure backend service for the **EventPlanner** platform – desi
 ---
 
 ## 📋 Table of Contents
-- [About the Project](#about-the-project)
+- [📖 About the Project](#about-the-project)
 - [Architecture & Features](#architecture--features)
 - [Tech Stack](#tech-stack)
 - [Testing & Code Quality](#testing--code-quality)
 - [My Contributions](#my-contributions)
-- [Getting Started](#getting-started)
-- [License](#license)
 
 ---
 
@@ -35,13 +33,13 @@ This repository contains the **Backend** codebase, developed with **Java (Spring
 - Middleware to protect sensitive endpoints
 
 ### 📦 Event & User Management
-- Full CRUD for **events**, **event types**, and **user profiles**
+- Full CRUD for **events**, **event types**, **services**, **products**, **product/service-reservations**, **event participations** and **user profiles**
 - DTO pattern for clean and safe data transfer
 - Modular services: `Repository → Service → Controller`
 
 ### 🔔 Communication
 - Email service for account-related notifications
-- WebSocket support for real-time event updates
+- WebSocket support for real-time event updates and messages (chat)
 
 ### 🔗 API
 - RESTful API design
